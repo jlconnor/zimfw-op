@@ -1,4 +1,4 @@
-# This is example code.
-# This will be executed when this module is initialized during Zsh startup.
-
-print "executed code in ${0}"
+export ANTHROPIC_API_KEY=op://Personal/Anthropic/credential
+export OPENAI_API_KEY=op://Personal/OpenAI/credential
+export OPENROUTER_API_KEY=op://Personal/OpenRouter/credential
+export LITELLM_MASTER_KEY=op://Personal/LiteLLM/master-key
